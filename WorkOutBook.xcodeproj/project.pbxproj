@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		252E76F31DA5659C0006E116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252E76F21DA5659C0006E116 /* AppDelegate.swift */; };
-		252E76F51DA5659C0006E116 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252E76F41DA5659C0006E116 /* FirstViewController.swift */; };
-		252E76F71DA5659C0006E116 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252E76F61DA5659C0006E116 /* SecondViewController.swift */; };
+		252E76F51DA5659C0006E116 /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252E76F41DA5659C0006E116 /* WeightViewController.swift */; };
+		252E76F71DA5659C0006E116 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252E76F61DA5659C0006E116 /* WorkoutViewController.swift */; };
 		252E76FA1DA5659C0006E116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252E76F81DA5659C0006E116 /* Main.storyboard */; };
 		252E76FC1DA5659C0006E116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252E76FB1DA5659C0006E116 /* Assets.xcassets */; };
 		252E76FF1DA5659C0006E116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252E76FD1DA5659C0006E116 /* LaunchScreen.storyboard */; };
@@ -17,13 +17,16 @@
 		252E770B1DA56E2E0006E116 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252E770A1DA56E2E0006E116 /* LoginViewController.swift */; };
 		252E770D1DA56EC80006E116 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252E770C1DA56EC80006E116 /* SignupViewController.swift */; };
 		252E770F1DA578DF0006E116 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252E770E1DA578DF0006E116 /* ForgotPasswordViewController.swift */; };
+		252E77111DA59DCA0006E116 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252E77101DA59DCA0006E116 /* HomeViewController.swift */; };
+		252E77131DA5A3C40006E116 /* AddWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252E77121DA5A3C40006E116 /* AddWorkoutViewController.swift */; };
+		253E2B7A1DA5AAA40098B1BC /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253E2B791DA5AAA40098B1BC /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		252E76EF1DA5659C0006E116 /* WorkOutBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkOutBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		252E76F21DA5659C0006E116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		252E76F41DA5659C0006E116 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		252E76F61DA5659C0006E116 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		252E76F41DA5659C0006E116 /* WeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
+		252E76F61DA5659C0006E116 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
 		252E76F91DA5659C0006E116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		252E76FB1DA5659C0006E116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		252E76FE1DA5659C0006E116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +35,9 @@
 		252E770A1DA56E2E0006E116 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		252E770C1DA56EC80006E116 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		252E770E1DA578DF0006E116 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		252E77101DA59DCA0006E116 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		252E77121DA5A3C40006E116 /* AddWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWorkoutViewController.swift; sourceTree = "<group>"; };
+		253E2B791DA5AAA40098B1BC /* TaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +82,15 @@
 		252E77081DA5671C0006E116 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				252E76F41DA5659C0006E116 /* FirstViewController.swift */,
-				252E76F61DA5659C0006E116 /* SecondViewController.swift */,
+				252E76F41DA5659C0006E116 /* WeightViewController.swift */,
+				252E76F61DA5659C0006E116 /* WorkoutViewController.swift */,
 				252E77061DA566D50006E116 /* GlobalLoginViewController.swift */,
 				252E770A1DA56E2E0006E116 /* LoginViewController.swift */,
 				252E770C1DA56EC80006E116 /* SignupViewController.swift */,
 				252E770E1DA578DF0006E116 /* ForgotPasswordViewController.swift */,
+				252E77101DA59DCA0006E116 /* HomeViewController.swift */,
+				252E77121DA5A3C40006E116 /* AddWorkoutViewController.swift */,
+				253E2B791DA5AAA40098B1BC /* TaskViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -169,9 +178,12 @@
 			files = (
 				252E770D1DA56EC80006E116 /* SignupViewController.swift in Sources */,
 				252E770F1DA578DF0006E116 /* ForgotPasswordViewController.swift in Sources */,
-				252E76F71DA5659C0006E116 /* SecondViewController.swift in Sources */,
+				252E77131DA5A3C40006E116 /* AddWorkoutViewController.swift in Sources */,
+				252E76F71DA5659C0006E116 /* WorkoutViewController.swift in Sources */,
+				252E77111DA59DCA0006E116 /* HomeViewController.swift in Sources */,
 				252E76F31DA5659C0006E116 /* AppDelegate.swift in Sources */,
-				252E76F51DA5659C0006E116 /* FirstViewController.swift in Sources */,
+				252E76F51DA5659C0006E116 /* WeightViewController.swift in Sources */,
+				253E2B7A1DA5AAA40098B1BC /* TaskViewController.swift in Sources */,
 				252E770B1DA56E2E0006E116 /* LoginViewController.swift in Sources */,
 				252E77071DA566D50006E116 /* GlobalLoginViewController.swift in Sources */,
 			);
@@ -333,6 +345,7 @@
 				252E77051DA5659C0006E116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

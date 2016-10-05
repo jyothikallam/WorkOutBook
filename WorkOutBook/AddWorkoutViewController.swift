@@ -1,5 +1,5 @@
 //
-//  SignupViewController.swift
+//  AddWorkoutViewController.swift
 //  WorkOutBook
 //
 //  Created by Jyothi Reddy Kallam on 5/10/16.
@@ -8,17 +8,16 @@
 
 import UIKit
 
-class SignupViewController: UIViewController {
+class AddWorkoutViewController: UIViewController {
     
+    @IBOutlet weak var exec: UITextField!
     
-    @IBOutlet weak var firstName: UITextField!
-    @IBOutlet weak var lastName: UITextField!
-    @IBOutlet weak var emailAddress: UITextField!
-    @IBOutlet weak var password: UITextField!
-    @IBOutlet weak var errorMsg: UILabel!
+    @IBOutlet weak var noOfReps: UITextField!
     
-    @IBAction func signupAction(_ sender: AnyObject) {
-        performSegue(withIdentifier: "verifiedUser", sender: self)
+    @IBOutlet weak var noOfSets: UITextField!
+    
+    @IBAction func addTask(_ sender: AnyObject) {
+        performSegue(withIdentifier: "workAdded", sender: self)
     }
     
     override func viewDidLoad() {
@@ -33,3 +32,6 @@ class SignupViewController: UIViewController {
     
     
 }
+
+
+

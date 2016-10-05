@@ -14,6 +14,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var login: UIButton!
     @IBOutlet weak var signup: UIButton!
+    @IBOutlet weak var errorMsg: UILabel!
     
     @IBAction func forgotPassword(_ sender: AnyObject) {
         performSegue(withIdentifier: "forgotPassword", sender: self)
