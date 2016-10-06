@@ -287,24 +287,24 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sI3-kR-SpC">
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bOT-o1-BpV">
-                                        <color key="textColor" red="0.74901962280000001" green="0.74901962280000001" blue="0.74901962280000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ruF-zw-lug">
-                                        <color key="textColor" red="0.74901962280000001" green="0.74901962280000001" blue="0.74901962280000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                                     </textField>
                                 </subviews>
                             </stackView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8hE-cM-O3r">
-                                <color key="textColor" red="0.74901962280000001" green="0.74901962280000001" blue="0.74901962280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hx5-2A-Wc2">
-                                <color key="textColor" red="0.74901962280000001" green="0.74901962280000001" blue="0.74901962280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES"/>
                             </textField>
@@ -315,7 +315,6 @@
                                 </state>
                                 <connections>
                                     <action selector="signupAction:" destination="vD5-MD-wbX" eventType="touchUpInside" id="mod-yS-EOq"/>
-                                    <segue destination="49e-Tb-3d3" kind="show" identifier="verifiedUser" id="Y0Z-qf-NT9"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ID7-VW-fUx">
@@ -358,6 +357,7 @@
                         <outlet property="firstName" destination="bOT-o1-BpV" id="M8m-Rg-GV1"/>
                         <outlet property="lastName" destination="ruF-zw-lug" id="3vK-oZ-aR6"/>
                         <outlet property="password" destination="Hx5-2A-Wc2" id="Z4n-ia-zsW"/>
+                        <segue destination="49e-Tb-3d3" kind="show" identifier="verifiedUser" id="z7j-xY-XXj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9lb-gg-kbQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -377,12 +377,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1TS-sw-Mub">
-                                <color key="textColor" red="0.66274511810000003" green="0.66274511810000003" blue="0.66274511810000003" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GJu-LZ-RQz">
-                                <color key="textColor" red="0.66274511810000003" green="0.66274511810000003" blue="0.66274511810000003" alpha="1" colorSpace="deviceRGB"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GJu-LZ-RQz">
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress"/>
                             </textField>
@@ -394,7 +394,6 @@
                                 </state>
                                 <connections>
                                     <action selector="loginAction:" destination="hk4-G3-U0I" eventType="touchUpInside" id="m3l-sY-Vdg"/>
-                                    <segue destination="49e-Tb-3d3" kind="show" identifier="verifiedUser" id="1x2-rH-lRp"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have a WorkOutBook account yet? Get one." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqE-z9-uCM">
@@ -410,7 +409,6 @@
                                 <connections>
                                     <action selector="forgotPassword:" destination="hk4-G3-U0I" eventType="touchUpInside" id="2Db-wM-YT5"/>
                                     <action selector="signupAction:" destination="hk4-G3-U0I" eventType="touchUpInside" id="Kcb-BE-aJc"/>
-                                    <segue destination="vD5-MD-wbX" kind="show" identifier="signupId" id="GpL-Zx-0xQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPV-Io-U9g">
@@ -460,6 +458,8 @@
                         <outlet property="login" destination="rZZ-R5-HrP" id="CAG-WS-Luj"/>
                         <outlet property="password" destination="GJu-LZ-RQz" id="FRE-mP-eEn"/>
                         <outlet property="signup" destination="NhV-Sq-Pcl" id="8Qt-b1-xY0"/>
+                        <segue destination="vD5-MD-wbX" kind="show" identifier="signupId" id="Njb-X3-B5Z"/>
+                        <segue destination="49e-Tb-3d3" kind="show" identifier="verifiedUser" id="a4d-jr-u6D"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ztw-WE-d9S" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -612,7 +612,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="InE-Kh-B4X"/>
-        <segue reference="1x2-rH-lRp"/>
-        <segue reference="GpL-Zx-0xQ"/>
+        <segue reference="Njb-X3-B5Z"/>
+        <segue reference="z7j-xY-XXj"/>
     </inferredMetricsTieBreakers>
 </document>

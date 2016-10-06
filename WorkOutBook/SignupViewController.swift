@@ -21,7 +21,7 @@ class SignupViewController: UIViewController {
     @IBAction func signupAction(_ sender: AnyObject) {
         let email = emailAddress.text
         let pswd = password.text
-        FIRAuth.auth()?.signIn(withEmail: email!, password: pswd!) { (user, error) in
+        FIRAuth.auth()?.createUser(withEmail: email!, password: pswd!) { (user, error) in
             if let error = error {
                 print(error.localizedDescription)
                 self.errorMsg.text = error.localizedDescription
