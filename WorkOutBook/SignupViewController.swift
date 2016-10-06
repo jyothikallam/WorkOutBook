@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class SignupViewController: UIViewController {
     
@@ -18,7 +19,18 @@ class SignupViewController: UIViewController {
     @IBOutlet weak var errorMsg: UILabel!
     
     @IBAction func signupAction(_ sender: AnyObject) {
-        performSegue(withIdentifier: "verifiedUser", sender: self)
+        let email = emailAddress.text
+        let pswd = password.text
+        FIRAuth.auth()?.signIn(withEmail: email!, password: pswd!) { (user, error) in
+            if let error = error {
+                print(error.localizedDescription)
+                self.errorMsg.text = error.localizedDescription
+                return
+            }
+            else{
+                self.performSegue(withIdentifier: "verifiedUser", sender: self)
+            }
+        }
     }
     
     override func viewDidLoad() {

@@ -1,0 +1,6 @@
+framework module Pods_WorkOutBook {
+  umbrella header "Pods-WorkOutBook-umbrella.h"
+
+  export *
+  module * { export * }
+}
