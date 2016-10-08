@@ -21,6 +21,10 @@
 		252E77131DA5A3C40006E116 /* AddWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252E77121DA5A3C40006E116 /* AddWorkoutViewController.swift */; };
 		253E2B7A1DA5AAA40098B1BC /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253E2B791DA5AAA40098B1BC /* TaskViewController.swift */; };
 		253E2B7E1DA5C6710098B1BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 253E2B7D1DA5C6710098B1BC /* GoogleService-Info.plist */; };
+		25BFCB0F1DA8663800E6481D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BFCB0C1DA8663800E6481D /* FBSDKCoreKit.framework */; };
+		25BFCB101DA8663800E6481D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BFCB0D1DA8663800E6481D /* FBSDKLoginKit.framework */; };
+		25BFCB111DA8663800E6481D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BFCB0E1DA8663800E6481D /* FBSDKShareKit.framework */; };
+		25BFCB171DA870C500E6481D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BFCB161DA870C500E6481D /* Bolts.framework */; };
 		795D084F61485ABEB988F695 /* Pods_WorkOutBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F597E426702A51648230C1 /* Pods_WorkOutBook.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +46,11 @@
 		252E77121DA5A3C40006E116 /* AddWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWorkoutViewController.swift; sourceTree = "<group>"; };
 		253E2B791DA5AAA40098B1BC /* TaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 		253E2B7D1DA5C6710098B1BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		25BFCB0C1DA8663800E6481D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = WorkOutBook/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		25BFCB0D1DA8663800E6481D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = WorkOutBook/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		25BFCB0E1DA8663800E6481D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = WorkOutBook/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		25BFCB131DA86C6B00E6481D /* WorkOutBook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WorkOutBook-Bridging-Header.h"; sourceTree = "<group>"; };
+		25BFCB161DA870C500E6481D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		74F597E426702A51648230C1 /* Pods_WorkOutBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkOutBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B197374440603881BAB14277 /* Pods-WorkOutBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkOutBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkOutBook/Pods-WorkOutBook.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,7 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25BFCB171DA870C500E6481D /* Bolts.framework in Frameworks */,
+				25BFCB111DA8663800E6481D /* FBSDKShareKit.framework in Frameworks */,
 				795D084F61485ABEB988F695 /* Pods_WorkOutBook.framework in Frameworks */,
+				25BFCB0F1DA8663800E6481D /* FBSDKCoreKit.framework in Frameworks */,
+				25BFCB101DA8663800E6481D /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +92,7 @@
 		252E76F11DA5659C0006E116 /* WorkOutBook */ = {
 			isa = PBXGroup;
 			children = (
+				25BFCB131DA86C6B00E6481D /* WorkOutBook-Bridging-Header.h */,
 				252E76F21DA5659C0006E116 /* AppDelegate.swift */,
 				252E77081DA5671C0006E116 /* Controller */,
 				252E76FB1DA5659C0006E116 /* Assets.xcassets */,
@@ -117,6 +131,10 @@
 		D5402E1D492C7BCE7BB04355 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				25BFCB161DA870C500E6481D /* Bolts.framework */,
+				25BFCB0C1DA8663800E6481D /* FBSDKCoreKit.framework */,
+				25BFCB0D1DA8663800E6481D /* FBSDKLoginKit.framework */,
+				25BFCB0E1DA8663800E6481D /* FBSDKShareKit.framework */,
 				74F597E426702A51648230C1 /* Pods_WorkOutBook.framework */,
 			);
 			name = Frameworks;
@@ -388,10 +406,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RYL328YXKC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorkOutBook",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = WorkOutBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = joe.WorkOutBook.WorkOutBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WorkOutBook/WorkOutBook-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -402,10 +426,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RYL328YXKC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorkOutBook",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = WorkOutBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = joe.WorkOutBook.WorkOutBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WorkOutBook/WorkOutBook-Bridging-Header.h";
+				"SWIFT_OBJC_INTERFACE_HEADER_NAME[arch=*]" = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

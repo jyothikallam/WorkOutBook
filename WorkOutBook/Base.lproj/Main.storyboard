@@ -246,6 +246,11 @@
                             <constraint firstItem="lIs-cy-NES" firstAttribute="leading" secondItem="UFK-B5-KGI" secondAttribute="leadingMargin" id="jpK-q5-M2a"/>
                             <constraint firstItem="RA4-KU-elx" firstAttribute="centerX" secondItem="UFK-B5-KGI" secondAttribute="centerX" id="ybF-zr-R77"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="lIs-cy-NES"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="login" destination="1WV-Ma-NfZ" id="ZPc-yG-bgi"/>
@@ -611,8 +616,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="InE-Kh-B4X"/>
-        <segue reference="Njb-X3-B5Z"/>
+        <segue reference="Eyy-ND-Qkb"/>
         <segue reference="z7j-xY-XXj"/>
+        <segue reference="InE-Kh-B4X"/>
     </inferredMetricsTieBreakers>
 </document>
