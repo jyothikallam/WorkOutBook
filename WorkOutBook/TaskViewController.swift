@@ -10,15 +10,23 @@ import UIKit
 
 class TaskViewController: UIViewController {
     
+    var selectedDate: Date?
+    
     @IBOutlet weak var task: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.navigationItem.setRightBarButton(UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(WorkoutTaskViewController.barButtonItemClicked)), animated: true)
+        
+       task.text = "Task Summary"
+    }
+    
+    func barButtonItemClicked() {
+        performSegue(withIdentifier: "addTask", sender: nil)
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     

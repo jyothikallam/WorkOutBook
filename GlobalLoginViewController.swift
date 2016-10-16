@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 import FBSDKLoginKit
 
 class GlobalLoginViewController: UIViewController {
@@ -27,6 +28,15 @@ class GlobalLoginViewController: UIViewController {
         loginButton.frame = CGRect(x: 16, y: self.view.frame.size.height - 32 - 32 - 32, width: self.view.frame.size.width - 32, height: 32)
         self.view.addSubview(loginButton)
 
+    }
+   
+    override func viewWillAppear(_ animated: Bool) {
+        // check if user is already loggedin
+        if let user = FIRAuth.auth()?.currentUser {
+            performSegue(withIdentifier: "", sender: <#T##Any?#>)
+        } else {
+            //load the global view controller
+        }
     }
     
     override func didReceiveMemoryWarning() {

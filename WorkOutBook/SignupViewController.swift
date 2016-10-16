@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FBSDKLoginKit
 
 class SignupViewController: UIViewController {
     
@@ -35,7 +36,9 @@ class SignupViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let loginButton = FBSDKLoginButton()
+        loginButton.frame = CGRect(x: 16, y: 32, width: self.view.frame.size.width - 32, height: 32)
+        self.view.addSubview(loginButton)
     }
     
     override func didReceiveMemoryWarning() {

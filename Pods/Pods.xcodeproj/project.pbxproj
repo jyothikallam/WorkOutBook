@@ -7,49 +7,114 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D0D62DFDA07722F60F74F07362DCA31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		593AC90413946814A8073CC275D14657 /* Pods-WorkOutBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF094D68FD6315F4E7A7DB12D9590518 /* Pods-WorkOutBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A69BDBB75D975CFAAEF4752F0FC2AC9 /* Pods-WorkOutBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A07C560850B223C023218DEC82A3D /* Pods-WorkOutBook-dummy.m */; };
+		038AF846FD8C0D72FA4F10B474E03220 /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A1D5DC61D5E97356ECF11FFCD833B9 /* CalendarView.m */; };
+		09C7B21CE8988B1F1B2C9F8B85E03F69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2D32F030D553ED2363623FDCCBE79DAA /* NSString+CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE339F0035009B34490282AFF3EE75B /* NSString+CalendarView.m */; };
+		3901566B50B0207B06C62A398577F22B /* NSDate+CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D0F5A5BA08CA724D9E3EC5E3A8D317 /* NSDate+CalendarView.m */; };
+		3B38857B6B35C7FFBA0F1B2AF04F5925 /* NSString+CalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8715D6D9E5EAEE694194685214EC090B /* NSString+CalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C72F2B347DFC845011AD16C7CC94D2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		95B4B644C5B19031947322FB1902F69A /* Pods-WorkOutBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A07C560850B223C023218DEC82A3D /* Pods-WorkOutBook-dummy.m */; };
+		9627F682ACDA9A4C4CBCC12BB9682062 /* Calendar-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F69621B111A4AFF6078C18B5635A818E /* Calendar-iOS-dummy.m */; };
+		9DF03FB4FA0FBF74BF2007B8D0639121 /* CalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = FEF6DECC05763F5D5507BF4FC29A44D7 /* CalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2D0AE36DE9696727693145A4B2E7EBA /* Calendar-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D116D63AF461028B87070AC734C0660 /* Calendar-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC154530E79218E2655792A9A36D7EB0 /* NSDate+CalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 68D72DE1F336BBF3DB6F0E3C999204B8 /* NSDate+CalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8204DD55927BACC868092E533210C4A /* Pods-WorkOutBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF094D68FD6315F4E7A7DB12D9590518 /* Pods-WorkOutBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FD9C5EC0538D520A46FDD34AB99A6CE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B879C0788FE6998E26E1DBFDE0F99CF5;
+			remoteInfo = "Calendar-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		08AEED16C609898735C3CDDEFF3A7279 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
 		25E62BAECC1A9693F535387B2F5091D1 /* Pods-WorkOutBook-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorkOutBook-frameworks.sh"; sourceTree = "<group>"; };
 		2F4A07C560850B223C023218DEC82A3D /* Pods-WorkOutBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorkOutBook-dummy.m"; sourceTree = "<group>"; };
-		35A20E59E47B7F678BBAE77A524B0307 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		369D10129ED2D9B4E205FFD1936D23ED /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		3711366D75DF575310B6FE1E387DBA2B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45B93EE64F0154872BD9F317CADA6BC4 /* Pods-WorkOutBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorkOutBook.debug.xcconfig"; sourceTree = "<group>"; };
-		4761F87CFBF739E2A4D75031E7F2BDB7 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
-		55D3EB9CC2466094DD973029676A2472 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		4911549F9637CF4B20A2AF90514ED7DA /* Calendar-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Calendar-iOS-prefix.pch"; sourceTree = "<group>"; };
+		4B2061C2CBC5E66D2D62337EE8A0871E /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
 		5DDE73FFD71D1BD7CFAEDD3EE513DD00 /* Pods-WorkOutBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WorkOutBook.modulemap"; sourceTree = "<group>"; };
-		67BAE9A776C3F88B932EF65D29360537 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
-		6DA80F28E707D0599C30527A29D87031 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		5EFE3E7CF575BCFABD1856D6972A52ED /* Calendar-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Calendar-iOS.xcconfig"; sourceTree = "<group>"; };
+		68CAEC3B8F8211B4FB5713E6C1E400F3 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		68D72DE1F336BBF3DB6F0E3C999204B8 /* NSDate+CalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+CalendarView.h"; path = "ios_calendar/Sources/NSDate+CalendarView.h"; sourceTree = "<group>"; };
 		6F58C4F129D394485EF7FA80F915E828 /* Pods-WorkOutBook-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorkOutBook-acknowledgements.plist"; sourceTree = "<group>"; };
+		72D0F5A5BA08CA724D9E3EC5E3A8D317 /* NSDate+CalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+CalendarView.m"; path = "ios_calendar/Sources/NSDate+CalendarView.m"; sourceTree = "<group>"; };
 		76F5D44F5E2876A5C35A23C57D251577 /* Pods-WorkOutBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorkOutBook.release.xcconfig"; sourceTree = "<group>"; };
+		7B563BB2C76346DE932065D3163869CB /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		8715D6D9E5EAEE694194685214EC090B /* NSString+CalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+CalendarView.h"; path = "ios_calendar/Sources/NSString+CalendarView.h"; sourceTree = "<group>"; };
+		8D116D63AF461028B87070AC734C0660 /* Calendar-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Calendar-iOS-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		998B85A8B163ED0BDB5FF71134597330 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		9B19637F2559B3BF3245D9882F277C6A /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
 		AA35F755230CC0C85338A21E667F69E9 /* Pods-WorkOutBook-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorkOutBook-resources.sh"; sourceTree = "<group>"; };
-		C765F70B6D615A1ECA745D1F89F849A2 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		AD9D5614988C641F636372C225CD8299 /* Calendar-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Calendar-iOS.modulemap"; sourceTree = "<group>"; };
+		B2DCE9039E6E44BA424C18DF93A95B90 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		B9A7B4D16E8778945217D703C9537153 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		C885B21DA3976E882573634E4CBFD35A /* Pods_WorkOutBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkOutBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CBB0954293D62C1726E26D3E8C2FE7 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		CAE339F0035009B34490282AFF3EE75B /* NSString+CalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+CalendarView.m"; path = "ios_calendar/Sources/NSString+CalendarView.m"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DF8867CEFFD1290017854B6F2C1C8A7E /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
-		EB7A564D36A7D9E62CD7CDA67B579F51 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
-		EE8666564EC1558280994E71949ADACC /* Pods_WorkOutBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkOutBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65D5729F2606FC09E38D0CD3AA69738 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		D6A1D5DC61D5E97356ECF11FFCD833B9 /* CalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CalendarView.m; path = ios_calendar/Sources/CalendarView.m; sourceTree = "<group>"; };
+		E7E8383F1397AC0AD5CAF2A5C509E809 /* Calendar_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Calendar_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DD9E82876CE19AC527D4F1BE51017C /* Pods-WorkOutBook-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorkOutBook-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F847ABE6512B2018E8ED69364605DE26 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		F69621B111A4AFF6078C18B5635A818E /* Calendar-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Calendar-iOS-dummy.m"; sourceTree = "<group>"; };
+		F743BA801FEEF06FC689AE3A3A70A818 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF6DECC05763F5D5507BF4FC29A44D7 /* CalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CalendarView.h; path = ios_calendar/Sources/CalendarView.h; sourceTree = "<group>"; };
 		FF094D68FD6315F4E7A7DB12D9590518 /* Pods-WorkOutBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorkOutBook-umbrella.h"; sourceTree = "<group>"; };
+		FFE696F2882400ACCB8185D3722530C3 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1145274BB564CD7806E6AE0A8C2A3188 /* Frameworks */ = {
+		28163288C38D982BADC57CB1107F5940 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D0D62DFDA07722F60F74F07362DCA31 /* Foundation.framework in Frameworks */,
+				4C72F2B347DFC845011AD16C7CC94D2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D82F70BEE83B4EF3EAD649630D7338D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C7B21CE8988B1F1B2C9F8B85E03F69 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04425F03E07C57893265084D876E815F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9A7B4D16E8778945217D703C9537153 /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C1CB7E2352FC7D71780CF794CCB0C32 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				5EFBBE9121DF95F62D080DE23915D02F /* Frameworks */,
+			);
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		1450E8E8ABDBA9CF29830CF238812CF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9CBB0954293D62C1726E26D3E8C2FE7 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		24A86CD86D44DD05A6E2BEAC72748721 /* Pods-WorkOutBook */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,20 +133,12 @@
 			path = "Target Support Files/Pods-WorkOutBook";
 			sourceTree = "<group>";
 		};
-		2C31E0233017FB1BFBCB33F7354A2D22 /* GoogleUtilities */ = {
+		2E6EFECCCAAB29BAD94C255A1237CDAA /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				D281E91283F793E8CA75412349F48963 /* Frameworks */,
+				D65D5729F2606FC09E38D0CD3AA69738 /* Firebase.h */,
 			);
-			path = GoogleUtilities;
-			sourceTree = "<group>";
-		};
-		3CD7E1E23ECF34FDF931C0381F479D8C /* GoogleSymbolUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				46A8763392E22D8E8B274B0E2D7D1550 /* Frameworks */,
-			);
-			path = GoogleSymbolUtilities;
+			name = Core;
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -92,93 +149,101 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		436814AD526CBEF2976C2C3D6629CACE /* Analytics */ = {
+		43D61EDF89B7C0CE9BA2F419AAA27F27 /* GoogleSymbolUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				C765F70B6D615A1ECA745D1F89F849A2 /* Firebase.h */,
+				E49EAB98F2FC7057D4BA17B7C0D2AF33 /* Frameworks */,
 			);
-			name = Analytics;
+			path = GoogleSymbolUtilities;
 			sourceTree = "<group>";
 		};
-		46A8763392E22D8E8B274B0E2D7D1550 /* Frameworks */ = {
+		4CA39B91D0F466F2827D5222F9DA613F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4761F87CFBF739E2A4D75031E7F2BDB7 /* GoogleSymbolUtilities.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5C70F7225A55D654CC45856840D1C7EA /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				436814AD526CBEF2976C2C3D6629CACE /* Analytics */,
-			);
-			path = Firebase;
-			sourceTree = "<group>";
-		};
-		64D2C7DBA2B6D0DBEF7D768DCE48C89F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				35A20E59E47B7F678BBAE77A524B0307 /* FirebaseInstanceID.framework */,
+				9B19637F2559B3BF3245D9882F277C6A /* FirebaseDatabase.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		67B058AFA7F59DCEA4EE2A2F0AFF298D /* FirebaseInstanceID */ = {
+		4CED55F4EDBD8BC3271DF812B337F79E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF8867CEFFD1290017854B6F2C1C8A7E /* FIRInstanceID.h */,
-				64D2C7DBA2B6D0DBEF7D768DCE48C89F /* Frameworks */,
-			);
-			path = FirebaseInstanceID;
-			sourceTree = "<group>";
-		};
-		6814CDFFE1F526C936195965B3BED2DE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EE8666564EC1558280994E71949ADACC /* Pods_WorkOutBook.framework */,
+				E7E8383F1397AC0AD5CAF2A5C509E809 /* Calendar_iOS.framework */,
+				C885B21DA3976E882573634E4CBFD35A /* Pods_WorkOutBook.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6926ECF7C779A470DCBC96D030CC6A83 /* FirebaseAnalytics */ = {
+		56BAC063C6E498808A8F1C3B9D447A7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A4C27CD9DB001E80EC21B294BEBEAAE1 /* Frameworks */,
-			);
-			path = FirebaseAnalytics;
-			sourceTree = "<group>";
-		};
-		6A7093A972E338FDCB1503327A5A108F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				67BAE9A776C3F88B932EF65D29360537 /* FirebaseDatabase.framework */,
+				FFE696F2882400ACCB8185D3722530C3 /* FirebaseAnalytics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6E9F397AE79C26FBE9C8767EB7C6BF89 /* Pods */ = {
+		5A6D72470CFF52E5CE4DBC89700386AF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5C70F7225A55D654CC45856840D1C7EA /* Firebase */,
-				6926ECF7C779A470DCBC96D030CC6A83 /* FirebaseAnalytics */,
-				B975A4AA5B5C2F4A8E3D75B69E5E97DB /* FirebaseAuth */,
-				72FF4AA34B51053F6345C9700A854DCB /* FirebaseDatabase */,
-				67B058AFA7F59DCEA4EE2A2F0AFF298D /* FirebaseInstanceID */,
-				DBFFACE7C9ED8EC5C7CC42F190190BC4 /* GoogleInterchangeUtilities */,
-				A14C6E4BB4CB955E28A2A2AA42AF62F7 /* GoogleNetworkingUtilities */,
-				3CD7E1E23ECF34FDF931C0381F479D8C /* GoogleSymbolUtilities */,
-				2C31E0233017FB1BFBCB33F7354A2D22 /* GoogleUtilities */,
+				8DCF77FFD15147B9769C165182D882A8 /* Calendar-iOS */,
+				F701781F9FAB171B58FA095EFC33A29A /* Firebase */,
+				CA9F5C78D40F30BEF36ACF1912C6AA19 /* FirebaseAnalytics */,
+				F4F74C5DD586F43DD4572721F628A09D /* FirebaseAuth */,
+				0C1CB7E2352FC7D71780CF794CCB0C32 /* FirebaseCore */,
+				68E99F6E863229F6C21C19FA4A768804 /* FirebaseDatabase */,
+				EBBDDBE44665FCBA1336839AFE996EEA /* FirebaseInstanceID */,
+				8D7252352A67743C9CA9B2C803C8D5D6 /* GoogleInterchangeUtilities */,
+				C74B6BDC3E3FECAC43443566B5F722FE /* GoogleNetworkingUtilities */,
+				43D61EDF89B7C0CE9BA2F419AAA27F27 /* GoogleSymbolUtilities */,
+				B7D7B07887E310C917C1434DABC8AB72 /* GoogleUtilities */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		72FF4AA34B51053F6345C9700A854DCB /* FirebaseDatabase */ = {
+		5DEE563D41609C0E39AF52DE16DFFB3A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A7093A972E338FDCB1503327A5A108F /* Frameworks */,
+				08AEED16C609898735C3CDDEFF3A7279 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EFBBE9121DF95F62D080DE23915D02F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68CAEC3B8F8211B4FB5713E6C1E400F3 /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67292582EC3074ED264B54769577C547 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD9D5614988C641F636372C225CD8299 /* Calendar-iOS.modulemap */,
+				5EFE3E7CF575BCFABD1856D6972A52ED /* Calendar-iOS.xcconfig */,
+				F69621B111A4AFF6078C18B5635A818E /* Calendar-iOS-dummy.m */,
+				4911549F9637CF4B20A2AF90514ED7DA /* Calendar-iOS-prefix.pch */,
+				8D116D63AF461028B87070AC734C0660 /* Calendar-iOS-umbrella.h */,
+				F743BA801FEEF06FC689AE3A3A70A818 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Calendar-iOS";
+			sourceTree = "<group>";
+		};
+		68E99F6E863229F6C21C19FA4A768804 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				4CA39B91D0F466F2827D5222F9DA613F /* Frameworks */,
 			);
 			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		7980D7992A8A2CED5F0E75EEDD96DDBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				998B85A8B163ED0BDB5FF71134597330 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -186,10 +251,32 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				6E9F397AE79C26FBE9C8767EB7C6BF89 /* Pods */,
-				6814CDFFE1F526C936195965B3BED2DE /* Products */,
+				5A6D72470CFF52E5CE4DBC89700386AF /* Pods */,
+				4CED55F4EDBD8BC3271DF812B337F79E /* Products */,
 				9D8E2AFEC69E58215CA845C6543934A8 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8D7252352A67743C9CA9B2C803C8D5D6 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				7980D7992A8A2CED5F0E75EEDD96DDBF /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		8DCF77FFD15147B9769C165182D882A8 /* Calendar-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FEF6DECC05763F5D5507BF4FC29A44D7 /* CalendarView.h */,
+				D6A1D5DC61D5E97356ECF11FFCD833B9 /* CalendarView.m */,
+				68D72DE1F336BBF3DB6F0E3C999204B8 /* NSDate+CalendarView.h */,
+				72D0F5A5BA08CA724D9E3EC5E3A8D317 /* NSDate+CalendarView.m */,
+				8715D6D9E5EAEE694194685214EC090B /* NSString+CalendarView.h */,
+				CAE339F0035009B34490282AFF3EE75B /* NSString+CalendarView.m */,
+				67292582EC3074ED264B54769577C547 /* Support Files */,
+			);
+			path = "Calendar-iOS";
 			sourceTree = "<group>";
 		};
 		9D8E2AFEC69E58215CA845C6543934A8 /* Targets Support Files */ = {
@@ -200,44 +287,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A14C6E4BB4CB955E28A2A2AA42AF62F7 /* GoogleNetworkingUtilities */ = {
+		B7D7B07887E310C917C1434DABC8AB72 /* GoogleUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				A81D21B5302AB8375EEFBF24421919DF /* Frameworks */,
+				1450E8E8ABDBA9CF29830CF238812CF0 /* Frameworks */,
 			);
-			path = GoogleNetworkingUtilities;
-			sourceTree = "<group>";
-		};
-		A4C27CD9DB001E80EC21B294BEBEAAE1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				369D10129ED2D9B4E205FFD1936D23ED /* FirebaseAnalytics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A6E49B499546589686E163EECC8085DF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EB7A564D36A7D9E62CD7CDA67B579F51 /* GoogleInterchangeUtilities.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A81D21B5302AB8375EEFBF24421919DF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				55D3EB9CC2466094DD973029676A2472 /* GoogleNetworkingUtilities.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B975A4AA5B5C2F4A8E3D75B69E5E97DB /* FirebaseAuth */ = {
-			isa = PBXGroup;
-			children = (
-				DEB9FEC781F1CE4AE7D7D1DB7D979A87 /* Frameworks */,
-			);
-			path = FirebaseAuth;
+			path = GoogleUtilities;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -248,59 +303,121 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D281E91283F793E8CA75412349F48963 /* Frameworks */ = {
+		C74B6BDC3E3FECAC43443566B5F722FE /* GoogleNetworkingUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				F847ABE6512B2018E8ED69364605DE26 /* GoogleUtilities.framework */,
+				5DEE563D41609C0E39AF52DE16DFFB3A /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		CA9F5C78D40F30BEF36ACF1912C6AA19 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				56BAC063C6E498808A8F1C3B9D447A7E /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		E49EAB98F2FC7057D4BA17B7C0D2AF33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2DCE9039E6E44BA424C18DF93A95B90 /* GoogleSymbolUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DBFFACE7C9ED8EC5C7CC42F190190BC4 /* GoogleInterchangeUtilities */ = {
+		EA10C25D742DFB0B32A259B6F434B8BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A6E49B499546589686E163EECC8085DF /* Frameworks */,
-			);
-			path = GoogleInterchangeUtilities;
-			sourceTree = "<group>";
-		};
-		DEB9FEC781F1CE4AE7D7D1DB7D979A87 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6DA80F28E707D0599C30527A29D87031 /* FirebaseAuth.framework */,
+				7B563BB2C76346DE932065D3163869CB /* FirebaseInstanceID.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBBDDBE44665FCBA1336839AFE996EEA /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				4B2061C2CBC5E66D2D62337EE8A0871E /* FIRInstanceID.h */,
+				EA10C25D742DFB0B32A259B6F434B8BC /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		F4F74C5DD586F43DD4572721F628A09D /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				04425F03E07C57893265084D876E815F /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		F701781F9FAB171B58FA095EFC33A29A /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				2E6EFECCCAAB29BAD94C255A1237CDAA /* Core */,
+			);
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		20284C00456AA4E65626D3BED60AC43C /* Headers */ = {
+		6974724EECD96F65DE0BF98024097C40 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				593AC90413946814A8073CC275D14657 /* Pods-WorkOutBook-umbrella.h in Headers */,
+				B2D0AE36DE9696727693145A4B2E7EBA /* Calendar-iOS-umbrella.h in Headers */,
+				9DF03FB4FA0FBF74BF2007B8D0639121 /* CalendarView.h in Headers */,
+				DC154530E79218E2655792A9A36D7EB0 /* NSDate+CalendarView.h in Headers */,
+				3B38857B6B35C7FFBA0F1B2AF04F5925 /* NSString+CalendarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2D0FE176AB0D315FCDDC5A66FB929F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8204DD55927BACC868092E533210C4A /* Pods-WorkOutBook-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2C028764CA8D2A4266C937915667CD24 /* Pods-WorkOutBook */ = {
+		251C8C0B27D87112236F465AF979AF98 /* Pods-WorkOutBook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F6E6AF5E44A3E5C121621BD03CAB63A /* Build configuration list for PBXNativeTarget "Pods-WorkOutBook" */;
+			buildConfigurationList = ED1759694F08385A18E726DA20130810 /* Build configuration list for PBXNativeTarget "Pods-WorkOutBook" */;
 			buildPhases = (
-				E146D4C82AB4EBC537F7A37E62C213BA /* Sources */,
-				1145274BB564CD7806E6AE0A8C2A3188 /* Frameworks */,
-				20284C00456AA4E65626D3BED60AC43C /* Headers */,
+				69EFABFEE8AD25089ED314D227EB2258 /* Sources */,
+				3D82F70BEE83B4EF3EAD649630D7338D /* Frameworks */,
+				FE2D0FE176AB0D315FCDDC5A66FB929F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10155CE2E6DDB472E82F6CEF03861E49 /* PBXTargetDependency */,
+			);
+			name = "Pods-WorkOutBook";
+			productName = "Pods-WorkOutBook";
+			productReference = C885B21DA3976E882573634E4CBFD35A /* Pods_WorkOutBook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B879C0788FE6998E26E1DBFDE0F99CF5 /* Calendar-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1321ED15000892D7B803F0D5977DB78 /* Build configuration list for PBXNativeTarget "Calendar-iOS" */;
+			buildPhases = (
+				DB9A3B76069C26830BFFEE9C0E6D04E7 /* Sources */,
+				28163288C38D982BADC57CB1107F5940 /* Frameworks */,
+				6974724EECD96F65DE0BF98024097C40 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-WorkOutBook";
-			productName = "Pods-WorkOutBook";
-			productReference = EE8666564EC1558280994E71949ADACC /* Pods_WorkOutBook.framework */;
+			name = "Calendar-iOS";
+			productName = "Calendar-iOS";
+			productReference = E7E8383F1397AC0AD5CAF2A5C509E809 /* Calendar_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -320,25 +437,46 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6814CDFFE1F526C936195965B3BED2DE /* Products */;
+			productRefGroup = 4CED55F4EDBD8BC3271DF812B337F79E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C028764CA8D2A4266C937915667CD24 /* Pods-WorkOutBook */,
+				B879C0788FE6998E26E1DBFDE0F99CF5 /* Calendar-iOS */,
+				251C8C0B27D87112236F465AF979AF98 /* Pods-WorkOutBook */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E146D4C82AB4EBC537F7A37E62C213BA /* Sources */ = {
+		69EFABFEE8AD25089ED314D227EB2258 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A69BDBB75D975CFAAEF4752F0FC2AC9 /* Pods-WorkOutBook-dummy.m in Sources */,
+				95B4B644C5B19031947322FB1902F69A /* Pods-WorkOutBook-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9A3B76069C26830BFFEE9C0E6D04E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9627F682ACDA9A4C4CBCC12BB9682062 /* Calendar-iOS-dummy.m in Sources */,
+				038AF846FD8C0D72FA4F10B474E03220 /* CalendarView.m in Sources */,
+				3901566B50B0207B06C62A398577F22B /* NSDate+CalendarView.m in Sources */,
+				2D32F030D553ED2363623FDCCBE79DAA /* NSString+CalendarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10155CE2E6DDB472E82F6CEF03861E49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Calendar-iOS";
+			target = B879C0788FE6998E26E1DBFDE0F99CF5 /* Calendar-iOS */;
+			targetProxy = FD9C5EC0538D520A46FDD34AB99A6CE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		42287DDF97330524BA3EF220F0276DA6 /* Release */ = {
@@ -379,7 +517,7 @@
 			};
 			name = Release;
 		};
-		5540FD044F45DEB7B05298D287AB251D /* Debug */ = {
+		44F9343BF32FA420D71F713309C0DD33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 45B93EE64F0154872BD9F317CADA6BC4 /* Pods-WorkOutBook.debug.xcconfig */;
 			buildSettings = {
@@ -412,9 +550,38 @@
 			};
 			name = Debug;
 		};
-		6C77B25BA2E6D6048BF55086282D22BF /* Release */ = {
+		5933A6A42583C0D5DE90761AFD0C23FA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76F5D44F5E2876A5C35A23C57D251577 /* Pods-WorkOutBook.release.xcconfig */;
+			baseConfigurationReference = 5EFE3E7CF575BCFABD1856D6972A52ED /* Calendar-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Calendar-iOS/Calendar-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Calendar-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Calendar-iOS/Calendar-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Calendar_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D40FADC55A82871D95B8B12119424EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EFE3E7CF575BCFABD1856D6972A52ED /* Calendar-iOS.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -425,18 +592,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WorkOutBook/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Calendar-iOS/Calendar-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Calendar-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WorkOutBook/Pods-WorkOutBook.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Calendar-iOS/Calendar-iOS.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WorkOutBook;
+				PRODUCT_NAME = Calendar_iOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,23 +650,65 @@
 			};
 			name = Debug;
 		};
+		C186AA923378C49FE31F393BDAE4D095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76F5D44F5E2876A5C35A23C57D251577 /* Pods-WorkOutBook.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WorkOutBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorkOutBook/Pods-WorkOutBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WorkOutBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0F6E6AF5E44A3E5C121621BD03CAB63A /* Build configuration list for PBXNativeTarget "Pods-WorkOutBook" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5540FD044F45DEB7B05298D287AB251D /* Debug */,
-				6C77B25BA2E6D6048BF55086282D22BF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE9439C22469D35336242DD983DB5C5F /* Debug */,
 				42287DDF97330524BA3EF220F0276DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1759694F08385A18E726DA20130810 /* Build configuration list for PBXNativeTarget "Pods-WorkOutBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44F9343BF32FA420D71F713309C0DD33 /* Debug */,
+				C186AA923378C49FE31F393BDAE4D095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1321ED15000892D7B803F0D5977DB78 /* Build configuration list for PBXNativeTarget "Calendar-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5933A6A42583C0D5DE90761AFD0C23FA /* Debug */,
+				5D40FADC55A82871D95B8B12119424EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

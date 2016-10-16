@@ -8,4 +8,5 @@ target 'WorkOutBook' do
   # Pods for WorkOutBook
     pod 'Firebase/Auth'
     pod 'Firebase/Database'
+    pod 'Calendar-iOS'
 end
