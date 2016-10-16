@@ -32,8 +32,9 @@ class GlobalLoginViewController: UIViewController {
    
     override func viewWillAppear(_ animated: Bool) {
         // check if user is already loggedin
+        //TO-DO
         if let user = FIRAuth.auth()?.currentUser {
-            performSegue(withIdentifier: "", sender: <#T##Any?#>)
+            performSegue(withIdentifier: "loggedInUser", sender: nil)
         } else {
             //load the global view controller
         }

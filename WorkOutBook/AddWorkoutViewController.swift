@@ -11,16 +11,23 @@ import UIKit
 class AddWorkoutViewController: UIViewController {
     
     var selectedDate: Date?
+    var month: Int!
+    var date: Int!
     
     @IBOutlet weak var exec: UITextField!
     @IBOutlet weak var noOfReps: UITextField!
     @IBOutlet weak var noOfSets: UITextField!
     
     @IBAction func addTask(_ sender: AnyObject) {
-        if (segue.identifier == "addWork"){
+        performSegue(withIdentifier: "viewCalendar", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "addTask"){
             let destination = segue.destination as! WorkoutViewController
+        }
     }
-    }
+
     override func viewWillAppear(_ animated: Bool) {
         let cal = Calendar.current
         let components = (cal as NSCalendar).components([.day , .month , .year], from: selectedDate!)
@@ -74,7 +81,6 @@ class AddWorkoutViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     
 }
 

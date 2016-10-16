@@ -50,7 +50,7 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <segue destination="Tln-Ed-RvD" kind="show" identifier="addWorkout" id="VXF-HD-D1q"/>
+                        <segue destination="Tln-Ed-RvD" kind="show" identifier="addTask" id="VXF-HD-D1q"/>
                         <segue destination="88w-kv-4SE" kind="show" identifier="viewTask" id="tiS-3u-7Yt"/>
                     </connections>
                 </viewController>
@@ -143,7 +143,7 @@
                         <outlet property="exec" destination="OIa-22-VYF" id="6Yx-Sx-zPm"/>
                         <outlet property="noOfReps" destination="mpu-pR-deX" id="jVh-7q-Jem"/>
                         <outlet property="noOfSets" destination="baL-qS-3T0" id="qb0-2M-YNG"/>
-                        <segue destination="8rJ-Kc-sve" kind="show" identifier="addWork" id="InE-Kh-B4X"/>
+                        <segue destination="8rJ-Kc-sve" kind="show" identifier="viewCalendar" id="InE-Kh-B4X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zjz-1B-d41" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -259,6 +259,7 @@
                     <connections>
                         <outlet property="login" destination="1WV-Ma-NfZ" id="ZPc-yG-bgi"/>
                         <outlet property="signup" destination="2gc-sK-fPw" id="9jE-tr-WKJ"/>
+                        <segue destination="49e-Tb-3d3" kind="presentation" identifier="loggedInUser" id="Ibh-Nk-94S"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fVW-8v-gpZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -647,8 +648,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="z7j-xY-XXj"/>
         <segue reference="Eyy-ND-Qkb"/>
+        <segue reference="Ibh-Nk-94S"/>
         <segue reference="InE-Kh-B4X"/>
         <segue reference="bXx-Kk-y5C"/>
     </inferredMetricsTieBreakers>

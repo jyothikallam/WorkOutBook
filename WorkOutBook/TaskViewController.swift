@@ -16,7 +16,7 @@ class TaskViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.setRightBarButton(UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(WorkoutTaskViewController.barButtonItemClicked)), animated: true)
+        self.navigationItem.setRightBarButton(UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(TaskViewController.barButtonItemClicked)), animated: true)
         
        task.text = "Task Summary"
     }

@@ -8,7 +8,7 @@
 
 import UIKit
 import Firebase
-import CalendarView
+import Calendar_iOS
 
 class WorkoutViewController: UIViewController, CalendarViewDelegate{
 
@@ -16,7 +16,7 @@ class WorkoutViewController: UIViewController, CalendarViewDelegate{
 
     @IBAction func addWorkOut(_ sender: AnyObject) {
         performSegue(withIdentifier:
-            "addWork", sender: self)
+            "addTask", sender: self)
     }
     
     override func viewDidLoad() {
@@ -30,11 +30,10 @@ class WorkoutViewController: UIViewController, CalendarViewDelegate{
         self.view.addSubview(calendarView)
         calendarView.calendarDelegate = self
         selectedDate = calendarView.currentDate
-        arr.append(data)
 
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if (segue.identifier == "addWork"){
+        if (segue.identifier == "addTask"){
             let destination = segue.destination as! AddWorkoutViewController
             destination.selectedDate = selectedDate
         }
@@ -48,7 +47,7 @@ class WorkoutViewController: UIViewController, CalendarViewDelegate{
     }
     
     func didTap(_ date: Date) {
-        performSegue(withIdentifier: "ViewTask", sender: self)
+        performSegue(withIdentifier: "viewTask", sender: self)
     }
 
     
